@@ -9,9 +9,41 @@
 Lights
   * basic light
   * blinking light
+    * using inheritance
+    * using composition
   * light switch - that can switch both of the above lights on
   
 ## Breadboard setup
+
+Setup a breadboard that looks like this:
+
+Now create a file called blink.js and add this source code:
+
+```javascript
+
+var five = require("johnny-five");
+var board = new five.Board();
+
+board.on('ready', function(){
+	
+		var pin = new five.Pin(9);
+		pin.high();
+
+		setTimeout(function(){
+			pin.low();
+		}, 1000);
+
+		setTimeout(function(){
+			pin.high();
+		}, 2000);
+
+		setTimeout(function(){
+			pin.low();
+		}, 3000);		
+
+});
+```
+
 
 ## Javascript Objects
 
