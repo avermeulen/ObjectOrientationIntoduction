@@ -83,6 +83,9 @@ var myFunc = function(count){
 
 ### 'this' in Javascript
 
+* Be sure to use ```new``` for constructor function
+* Whatch out for the context of ```this```
+
 ###Inheritence
 
 We will use constructor stealing
