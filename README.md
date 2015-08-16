@@ -2,6 +2,14 @@
 
 ## What is Object Orientation
 
+## Setup
+
+Create a new folder called 'OOIntro' in your projects folder
+* change in the the 'OOIntro' folder
+* do a ```npm init```
+* do ```npm install johnny-five```
+* you should be ready to go now
+
 ## Arduino and Breadboard Setup
 
 ## The Domain
