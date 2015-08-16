@@ -25,6 +25,9 @@ Lights
 
 Setup a breadboard that looks like this:
 
+![One LED](./pictures/Setup for One LED_bb.jpg)
+
+
 Now create a file called blink.js and add this source code:
 
 ```javascript
