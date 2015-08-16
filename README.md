@@ -55,11 +55,28 @@ board.on('ready', function(){
 
 ## Javascript Objects
 
-Object literals
-Javascript don't have classes
-Simulate classes using functions
+###Object literals
+Javascript don't have classes it simulate classes using functions.
+Object literals are instances already and are prototypes for new instances. Javascript support prototypal inheritance. Where objects can get functionality by navigating up their prototype chain.
 
 ### Function scope
+
+Javascript got function scope and not block scope. You should be carefull and always declare variables first inside of a function.
+
+For example the example below can cause some issues
+
+```
+
+var myFunc = function(count){
+	if (count == 7){
+		// ola is created in the function as a whole
+		var ola = 'ya!'	
+	}
+	// ola still exists if count is 7
+	return ola;
+}
+
+```
 
 ### 'this' in Javascript
 
