@@ -83,8 +83,8 @@ var myFunc = function(count){
 
 ### 'this' in Javascript
 
-* Be sure to use ```new``` for constructor function
-* Whatch out for the context of ```this```
+* Be sure to use ```new``` for constructor functions - otherwise they use the global scope!
+* Whatch out for the context of ```this``` - is it the right this. Keep a copy of this.
 
 ###Inheritence
 
