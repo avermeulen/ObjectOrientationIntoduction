@@ -176,7 +176,8 @@ Now:
 * Create a ```BlinkingLight``` object that can be switched on and off. One should be able to specify see blinking speed.
 * Create a ```LightSwitch``` object that can switch both the Light and the BlinkingLight on and off 
 
-## Usefull
+## Usefull resources:
 
-http://node-ardx.org/
-http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+* http://node-ardx.org/
+* http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+* http://addyosmani.com/resources/essentialjsdesignpatterns/book/
