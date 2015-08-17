@@ -22,8 +22,7 @@ Javascript got function scope and not block scope. You should be carefull and al
 
 For example the example below can cause some issues
 
-```
-
+```javascript
 var myFunc = function(count){
 	if (count == 7){
 		// ola is created in the function as a whole
@@ -32,13 +31,27 @@ var myFunc = function(count){
 	// ola still exists if count is 7
 	return ola;
 }
-
 ```
+A better way
+
+```javascript
+var myFunc = function(count){
+	var ola = '';
+	if (count == 7){
+		// ola is created in the function as a whole
+		ola = 'ya!'	
+	}
+	// ola still exists if count is 7
+	return ola;
+}
+```
+
 
 ### 'this' in Javascript
 
+* The state of the object.
 * Be sure to use ```new``` for constructor functions - otherwise they use the global scope!
-* Whatch out for the context of ```this``` - is it the right this. Keep a copy of this.
+* Whatch out for the context of ```this``` - is it the right ```this```. Keep a copy of ```this```.
 
 ###Inheritence
 
