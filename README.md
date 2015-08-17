@@ -179,4 +179,4 @@ Now:
 ## Usefull
 
 http://node-ardx.org/
-
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
