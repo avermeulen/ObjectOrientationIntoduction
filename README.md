@@ -4,7 +4,7 @@
 
 ## Setup
 
-Create a new folder called 'OOIntro' in your projects folder
+Create a new folder called ```OOIntro``` in your projects folder
 * change in the the 'OOIntro' folder
 * do a ```npm init```
 * do ```npm install --save johnny-five```
@@ -56,6 +56,14 @@ board.on('ready', function(){
 ```
 
 Connect the Arduino to your PC and try to execute this code using nodejs.
+
+What happens?
+
+Now:
+
+* Create a ```Light``` object which can be switched on and off
+* Create a ```BlinkingLight``` object that can be switched on and off. One should be able to specify see blinking speed.
+* Create a ```LightSwitch``` object that can switch both the Light and the BlinkingLight on and off 
 
 
 ## Javascript Objects
