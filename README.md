@@ -94,6 +94,33 @@ console.log(golf1.currentSpeed());
 
 Create an object that reference other objects
 
+```javascript
+
+var Golf = function(regNo){
+  var vehicle = new Vehicle(regNo);
+  
+  this.goFaster = function(){
+  	vehicle.accelerate();
+  }
+  
+  this.howFast = vehicle.currentSpeed;
+
+};
+
+var golf2 = new Golf('CY 670 234');
+
+//won't work
+console.log(golf2.regNo);
+
+golf.goFaster();
+golf.goFaster();
+golf.goFaster();
+
+// print 30
+console.log(golf1.howFast());
+
+```
+
 ## Arduino and Breadboard Setup
 
 ## The Domain
